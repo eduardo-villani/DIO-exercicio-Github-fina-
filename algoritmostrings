@@ -1,0 +1,11 @@
+# Armazenando uma única string
+minha_string = "Esta é uma string única."
+
+# Armazenando uma lista de várias strings
+minha_lista = ["Primeira string", "Segunda string", "Terceira string"]
+
+# Exibindo os valores armazenados
+print(f"A string única é: {minha_string}")
+print("A lista de strings é:")
+for item in minha_lista:
+    print(f"- {item}")
